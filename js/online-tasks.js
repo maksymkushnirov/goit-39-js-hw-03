@@ -1,3 +1,8 @@
+// tasks
+// solvings
+// tests
+// images
+
 // goit-39-js-hw-03
 console.log('');
 console.log('~~~ goit-39-js-hw-03 ~~~');
@@ -23,6 +28,9 @@ checkAge1(19);
 // You are an adult
 
 3.2
+console.log('');
+console.log('~~~ Task 3.2 ~~~');
+console.log('');
 const apartment = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
