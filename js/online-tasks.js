@@ -1,7 +1,6 @@
 // tasks
 // solvings
 // tests
-// images
 
 // goit-39-js-hw-03
 console.log('');
