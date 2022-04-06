@@ -1,6 +1,6 @@
 // tasks
 // solvings
-// tests
+// tests'
 
 // goit-39-js-hw-03
 console.log('');
@@ -11,7 +11,9 @@ console.log('');
 console.log('');
 console.log('~~~ Task 3.1 ~~~');
 console.log('');
-// Task
+
+
+
 const apartment = {
 imgUrl: "https://via.placeholder.com/640x480",
 descr: "Spacious apartment in the city center",
