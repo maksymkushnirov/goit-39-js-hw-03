@@ -1,6 +1,6 @@
-// tasks
 // solvings
-// tests'
+// tests
+// tasks'
 
 // goit-39-js-hw-03
 console.log('');
@@ -12,27 +12,20 @@ console.log('');
 console.log('~~~ Task 3.1 ~~~');
 console.log('');
 
-
-
-const apartment = {
+const apartment1 = {
 imgUrl: "https://via.placeholder.com/640x480",
 descr: "Spacious apartment in the city center",
 rating: 4,
 price: 2153,
 tags: ["premium", "promoted", "top"]
 };
-checkAge1(17);
-// You are a minor
-checkAge1(18);
-// You are an adult
-checkAge1(19);
-// You are an adult
 
-3.2
+// 3.2
 console.log('');
 console.log('~~~ Task 3.2 ~~~');
 console.log('');
-const apartment = {
+
+const apartment2 = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
   rating: 4,
@@ -45,18 +38,18 @@ email: "henry.carter@aptmail.com",
 },
 };
 
-3.3
-const apartment = {
+// 3.3
+const apartment3 = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
   rating: 4,
   price: 2153,
   tags: ["premium", "promoted", "top"],
 };
-const aptRating = apartment.rating;
-const aptDescr = apartment.descr;
-const aptPrice = apartment.price;
-const aptTags = apartment.tags;
+const aptRating3 = apartment.rating;
+const aptDescr3 = apartment.descr;
+const aptPrice3 = apartment.price;
+const aptTags3 = apartment.tags;
 
 3.4
 const apartment = {
