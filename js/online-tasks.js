@@ -51,8 +51,8 @@ const aptDescr3 = apartment.descr;
 const aptPrice3 = apartment.price;
 const aptTags3 = apartment.tags;
 
-3.4
-const apartment = {
+// 3.4
+const apartment4 = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
   rating: 4,
@@ -71,8 +71,8 @@ const numberOfTags = apartment.tags.length;
 const firstTag = apartment.tags[0];
 const lastTag = apartment.tags[2];
 
-3.5
-const apartment = {
+// 3.5
+const apartment5 = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
   rating: 4,
