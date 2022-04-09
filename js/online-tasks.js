@@ -46,10 +46,10 @@ const apartment3 = {
   price: 2153,
   tags: ["premium", "promoted", "top"],
 };
-const aptRating3 = apartment.rating;
-const aptDescr3 = apartment.descr;
-const aptPrice3 = apartment.price;
-const aptTags3 = apartment.tags;
+const aptRating3 = apartment3.rating;
+const aptDescr3 = apartment3.descr;
+const aptPrice3 = apartment3.price;
+const aptTags3 = apartment3.tags;
 
 // 3.4
 const apartment4 = {
@@ -64,12 +64,12 @@ const apartment4 = {
     email: "henry.carter@aptmail.com",
   },
 };
-const ownerName = apartment.owner.name;
-const ownerPhone = apartment.owner.phone;
-const ownerEmail = apartment.owner.email;
-const numberOfTags = apartment.tags.length;
-const firstTag = apartment.tags[0];
-const lastTag = apartment.tags[2];
+const ownerName = apartment4.owner.name;
+const ownerPhone = apartment4.owner.phone;
+const ownerEmail = apartment4.owner.email;
+const numberOfTags = apartment4.tags.length;
+const firstTag = apartment4.tags[0];
+const lastTag = apartment4.tags[2];
 
 // 3.5
 const apartment5 = {
@@ -79,13 +79,13 @@ const apartment5 = {
   price: 2153,
   tags: ["premium", "promoted", "top"],
 };
-const aptRating = apartment["rating"];
-const aptDescr = apartment["descr"];
-const aptPrice = apartment["price"];
-const aptTags = apartment["tags"];
+const aptRating = apartment5["rating"];
+const aptDescr = apartment5["descr"];
+const aptPrice = apartment5["price"];
+const aptTags = apartment5["tags"];
 
-3.6
-const apartment = {
+// 3.6
+const apartment6 = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
   rating: 4,
@@ -97,12 +97,12 @@ const apartment = {
     email: "henry.carter@aptmail.com",
   },
 };
-apartment.price = 5000;
-apartment.rating = 4.7;
-apartment.owner.name = "Henry Sibola";
-apartment.tags.push("trusted");
+apartment6.price = 5000;
+apartment6.rating = 4.7;
+apartment6.owner.name = "Henry Sibola";
+apartment6.tags.push("trusted");
 
-3.7
+// 3.7
 const apartment = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
@@ -135,7 +135,7 @@ const product = {
   tags
 };
 
-3.9
+// 3.9
 const emailInputName = "email";
 const passwordInputName = "password";
 
@@ -144,17 +144,17 @@ const credentials = {
 [passwordInputName]: "jqueryismyjam",
 };
 
-3.10
-const apartment = {
+// 3.10
+const apartment10 = {
   descr: "Spacious apartment in the city center",
   rating: 4,
   price: 2153,
 };
-const keys = [];
-const values = [];
-for (const key in apartment) {
-  keys.push(key),
-  values.push(apartment[key])
+const keys10 = [];
+const values10 = [];
+for (const key10 in apartment10) {
+  keys10.push(key10),
+  values10.push(apartment10[key10])
 }
 
 3.11
