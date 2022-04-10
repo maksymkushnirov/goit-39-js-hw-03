@@ -103,7 +103,7 @@ apartment6.owner.name = "Henry Sibola";
 apartment6.tags.push("trusted");
 
 // 3.7
-const apartment = {
+const apartment7 = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
   rating: 4.7,
@@ -115,14 +115,14 @@ const apartment = {
     email: "henry.carter@aptmail.com",
   },
 };
-apartment.area = 60;
-apartment.rooms = 3;
-apartment.location = {
+apartment7.area = 60;
+apartment7.rooms = 3;
+apartment7.location = {
   country: "Jamaica",
   city: "Kingston"
 };
 
-3.8
+// 3.8
 const name = "Repair Droid";
 const price = 2500;
 const image = "https://via.placeholder.com/640x480";
