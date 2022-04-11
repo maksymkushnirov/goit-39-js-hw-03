@@ -157,21 +157,21 @@ for (const key10 in apartment10) {
   values10.push(apartment10[key10])
 }
 
-3.11
-const keys = [];
-const values = [];
-const advert = {
+// 3.11
+const keys11 = [];
+const values11 = [];
+const advert11 = {
   service: "apt",
 };
-const apartment = Object.create(advert);
-apartment.descr = "Spacious apartment in the city center";
-apartment.rating = 4;
-apartment.price = 2153;
+const apartment11 = Object.create(advert11);
+apartment11.descr = "Spacious apartment in the city center";
+apartment11.rating = 4;
+apartment11.price = 2153;
 
-for (const key in apartment) {
-if (apartment.hasOwnProperty(key)){
-  keys.push(key);
-  values.push(apartment[key]);}
+for (const key11 in apartment11) {
+if (apartment11.hasOwnProperty(key11)){
+  keys11.push(key11);
+  values11.push(apartment11[key11]);}
 }
 
 3.12
