@@ -174,16 +174,23 @@ if (apartment11.hasOwnProperty(key11)){
   values11.push(apartment11[key11]);}
 }
 
-3.12
-function countProps(object) {
-  let propCount = 0;
-for (const key in object) {
-     if (object.hasOwnProperty(key)) {
-      propCount ++;  
-         }
-     }
-  return propCount;
+// 3.12
+function countProps12(object) {
+    let propCount12 = 0;
+    for (const key in object) {
+        if (object.hasOwnProperty(key)) {
+            propCount12 ++;
+        }
+    }
+    // return propCount;
+  console.log(propCount12);
 }
+countProps12({});
+// 0
+countProps12({name: 'Mango', age: 2});
+// 2
+countProps12({ mail: 'poly@mail.com', isOnline: true, score: 500 });
+// 3
 
 3.13
 const apartment = {
