@@ -192,16 +192,16 @@ countProps12({name: 'Mango', age: 2});
 countProps12({ mail: 'poly@mail.com', isOnline: true, score: 500 });
 // 3
 
-3.13
-const apartment = {
+// 3.13
+const apartment13 = {
   descr: "Spacious apartment in the city center",
   rating: 4,
   price: 2153,
 };
-const values = [];
-const keys = Object.keys(apartment);
-for (const key of keys) {
-values.push(apartment[key]);
+const values13 = [];
+const keys13 = Object.keys(apartment13);
+for (const key of keys13) {
+values13.push(apartment13[key]);
 }
 
 3.14
