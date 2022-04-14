@@ -204,17 +204,24 @@ for (const key of keys13) {
 values13.push(apartment13[key]);
 }
 
-3.14
-function countProps(object) {
-  let propCount = 0;
-  const keys = Object.keys(object);
+// 3.14
+function countProps14(object14) {
+  let propCount14 = 0;
+  const keys = Object.keys(object14);
   for (const key of keys) {
   {
-      propCount += 1;
+      propCount14 += 1;
     }
   }
-  return propCount;
+  // return propCount14;
+  console.log(propCount14);
 }
+countProps14({});
+// 0
+countProps14({ name: "Mango", age: 2 });
+// 2
+countProps14({ mail: "poly@mail.com", isOnline: true, score: 500 });
+// 3
 
 3.15
 const apartment = {
