@@ -223,14 +223,14 @@ countProps14({ name: "Mango", age: 2 });
 countProps14({ mail: "poly@mail.com", isOnline: true, score: 500 });
 // 3
 
-3.15
-const apartment = {
+// 3.15
+const apartment15 = {
   descr: "Spacious apartment in the city center",
   rating: 4,
   price: 2153,
 };
-const keys = Object.keys(apartment);
-const values = Object.values(apartment);
+const keys15 = Object.keys15(apartment15);
+const values15 = Object.values15(apartment15);
 
 3.16
 function countTotalSalary(salaries) {
