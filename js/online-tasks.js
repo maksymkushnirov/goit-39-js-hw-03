@@ -232,14 +232,21 @@ const apartment15 = {
 const keys15 = Object.keys15(apartment15);
 const values15 = Object.values15(apartment15);
 
-3.16
-function countTotalSalary(salaries) {
-  let totalSalary = 0;
-const values = Object.values(salaries);
-  for(const key of values){
-  totalSalary += key;}
-  return totalSalary;
+// 3.16
+function countTotalSalary16(salaries16) {
+  let totalSalary16 = 0;
+const values = Object.values(salaries16);
+  for(const key16 of values){
+  totalSalary16 += key16;}
+  // return totalSalary16;
+    console.log(totalSalary16);
 }
+countTotalSalary16({});
+// 0
+countTotalSalary16({ mango: 100, poly: 150, alfred: 80 });
+// 330
+countTotalSalary16({ kiwi: 200, poly: 50, ajax: 150 }); 
+// 400
 
 3.17
 const colors = [
