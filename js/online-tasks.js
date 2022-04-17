@@ -248,18 +248,19 @@ countTotalSalary16({ mango: 100, poly: 150, alfred: 80 });
 countTotalSalary16({ kiwi: 200, poly: 50, ajax: 150 }); 
 // 400
 
-3.17
-const colors = [
+// 3.17
+const colors17 = [
   { hex: "#f44336", rgb: "244,67,54" },
   { hex: "#2196f3", rgb: "33,150,243" },
   { hex: "#4caf50", rgb: "76,175,80" },
   { hex: "#ffeb3b", rgb: "255,235,59" },
 ];
-const hexColors = [];
-const rgbColors = [];
+const hexColors17 = [];
+const rgbColors17 = [];
 for (const {hex, rgb} of colors) {
-  hexColors.push(hex);
-  rgbColors.push(rgb);   }
+  hexColors17.push(hex);
+  rgbColors17.push(rgb);
+}
 
 3.18
 const products = [
