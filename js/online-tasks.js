@@ -262,20 +262,33 @@ for (const {hex, rgb} of colors) {
   rgbColors17.push(rgb);
 }
 
-3.18
-const products = [
+// 3.18
+const products18 = [
   { name: "Radar", price: 1300, quantity: 4 },
   { name: "Scanner", price: 2700, quantity: 3 },
   { name: "Droid", price: 400, quantity: 7 },
   { name: "Grip", price: 1200, quantity: 9 },
 ];
 
-function getProductPrice(productName) {
-for (const product of products) {
-  if (product.name === productName) 
-  {return product.price}}
-return null;
+function getProductPrice18(productName) {
+  // Change code below this line
+  let productPrice = null;
+  for (const product of products18) {
+    if (product.name === productName) {
+      productPrice = product.price;
+    }
+  }
+  return productPrice;
+  // Change code above this line
 }
+console.log(getProductPrice18("Radar"));
+// 1300
+console.log(getProductPrice18("Scanner"));
+// 2700
+console.log(getProductPrice18("Droid"));
+// 400
+console.log(getProductPrice18("Engine"));
+// null
 
 3.19
 const products = [
