@@ -290,8 +290,8 @@ console.log(getProductPrice18("Droid"));
 console.log(getProductPrice18("Engine"));
 // null
 
-3.19
-const products = [
+// 3.19
+const products19 = [
   { name: "Radar", price: 1300, quantity: 4 },
   { name: "Scanner", price: 2700, quantity: 3 },
   { name: "Droid", price: 400, quantity: 7 },
@@ -299,13 +299,17 @@ const products = [
 ];
 function getAllPropValues(propName) {
   const propNames = [];
-  for (const product of products) {
+  for (const product of products19) {
     if (product[propName]) {
       propNames.push(product[propName]);
     }
   }
   return propNames;
 }
+console.log(getAllPropValues("name"));
+console.log(getAllPropValues("quantity"));
+console.log(getAllPropValues("price"));
+console.log(getAllPropValues("category"))
 
 3.20
 const products = [
