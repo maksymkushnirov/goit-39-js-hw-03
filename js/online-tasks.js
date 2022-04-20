@@ -311,7 +311,7 @@ console.log(getAllPropValues("quantity"));
 console.log(getAllPropValues("price"));
 console.log(getAllPropValues("category"))
 
-3.20
+// 3.20
 const products = [
   { name: "Radar", price: 1300, quantity: 4 },
   { name: "Scanner", price: 2700, quantity: 3 },
@@ -326,6 +326,11 @@ for (let product of products) {
     totalCost = product.price * product.quantity;}}
   return totalCost;
 }
+console.log(calculateTotalPrice("Blaster"));
+console.log(calculateTotalPrice("Radar"));
+console.log(calculateTotalPrice("Droid"));
+console.log(calculateTotalPrice("Grip"));
+console.log(calculateTotalPrice("Scanner"));
 
 3.21
 const highTemperatures = {
