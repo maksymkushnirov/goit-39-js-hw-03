@@ -332,14 +332,14 @@ console.log(calculateTotalPrice("Droid"));
 console.log(calculateTotalPrice("Grip"));
 console.log(calculateTotalPrice("Scanner"));
 
-3.21
-const highTemperatures = {
-  yesterday: 28,
-  today: 26,
-  tomorrow: 33,
+// 3.21
+const highTemperatures21 = {
+  yesterday21: 28,
+  today21: 26,
+  tomorrow21: 33,
 };
-const {yesterday, today, tomorrow} = highTemperatures;
-const meanTemperature = (yesterday + today + tomorrow) / 3;
+const {yesterday21, today21, tomorrow21} = highTemperatures21;
+const meanTemperature21 = (yesterday21 + today21 + tomorrow21) / 3;
 
 3.22
 const highTemperatures = {
