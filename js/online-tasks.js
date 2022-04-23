@@ -358,20 +358,19 @@ const {
 } = highTemperatures22;
 const meanTemperature22 = (yesterday22 + today22 + tomorrow22) / 3;
 
-3.23;
-
-const highTemperatures = {
-    yesterday: 28,
-    today: 26,
-    tomorrow: 33,
+// 3.23;
+const highTemperatures23 = {
+    yesterday23: 28,
+    today23: 26,
+    tomorrow23: 33,
 };
 const {
-    yesterday: highYesterday,
-    today: highToday,
-    tomorrow: highTomorrow,
-    icon: highIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg',
-} = highTemperatures;
-const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
+    yesterday23: highYesterday23,
+    today23: highToday23,
+    tomorrow23: highTomorrow23,
+    icon: highIcon23 = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg',
+} = highTemperatures23;
+const meanTemperature23 = (highYesterday23 + highToday23 + highTomorrow23) / 3;
 
 3.24;
 const colors = [
