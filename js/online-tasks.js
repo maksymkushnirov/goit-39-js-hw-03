@@ -358,7 +358,7 @@ const {
 } = highTemperatures22;
 const meanTemperature22 = (yesterday22 + today22 + tomorrow22) / 3;
 
-// 3.23;
+// 3.23
 const highTemperatures23 = {
     yesterday23: 28,
     today23: 26,
@@ -372,7 +372,7 @@ const {
 } = highTemperatures23;
 const meanTemperature23 = (highYesterday23 + highToday23 + highTomorrow23) / 3;
 
-3.24;
+// 3.24
 const colors = [
     { hex: '#f44336', rgb: '244,67,54' },
     { hex: '#2196f3', rgb: '33,150,243' },
