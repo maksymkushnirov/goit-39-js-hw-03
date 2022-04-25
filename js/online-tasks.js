@@ -386,7 +386,7 @@ for (const { hex, rgb } of colors) {
     rgbColors.push(rgb);
 }
 
-3.25;
+// 3.25
 const forecast = {
     today: {
         low: 28,
