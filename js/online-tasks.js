@@ -411,7 +411,7 @@ const {
     },
 } = forecast;
 
-3.26;
+// 3.26
 function calculateMeanTemperature(forecast) {
     const {
         today: { low: todayLow, high: todayHigh },
@@ -419,6 +419,12 @@ function calculateMeanTemperature(forecast) {
     } = forecast;
     return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
 }
+console.log(
+    calculateMeanTemperature({ today: { low: 28, high: 32 }, tomorrow: { low: 25, high: 29 } }),
+);
+console.log(
+    calculateMeanTemperature({ today: { low: 37, high: 40 }, tomorrow: { low: 33, high: 38 } }),
+);
 
 3.27;
 const scores = [89, 64, 42, 17, 93, 51, 26];
