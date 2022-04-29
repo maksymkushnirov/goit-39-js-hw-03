@@ -439,7 +439,20 @@ const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScore
 const bestScore = Math.max(...allScores);
 const worstScore = Math.min(...allScores);
 
-3.29;
+// 3.29
+const defaultSettings = {
+    theme: 'light',
+    public: true,
+    withPassword: false,
+    minNumberOfQuestions: 10,
+    timePerQuestion: 60,
+};
+const overrideSettings = {
+    public: false,
+    withPassword: true,
+    timePerQuestion: 30,
+};
+const finalSettings = { ...defaultSettings, ...overrideSettings };
 
 3.3;
 function makeTask(data) {
