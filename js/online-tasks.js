@@ -454,7 +454,7 @@ const overrideSettings = {
 };
 const finalSettings = { ...defaultSettings, ...overrideSettings };
 
-3.3;
+// 3.30
 function makeTask(data) {
     const completed = false;
     const category = 'General';
@@ -463,6 +463,11 @@ function makeTask(data) {
     const object = { completed, priority, category, ...data };
     return object;
 }
+console.log(makeTask({}));
+console.log(makeTask({ category: 'Homemade', priority: 'Low', text: 'Take out the trash' }));
+console.log(makeTask({ category: 'Finance', text: 'Take interest' }));
+console.log(makeTask({ priority: 'Low', text: 'Choose shampoo' }));
+console.log(makeTask({ text: 'Buy bread' }));
 
 3.31;
 
