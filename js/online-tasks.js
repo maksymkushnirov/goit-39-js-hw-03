@@ -479,7 +479,7 @@ console.log(add(12, 4, 11, 48));
 console.log(add(32, 6, 13, 19, 8));
 console.log(add(74, 11, 62, 46, 12, 36));
 
-3.32;
+// 3.32
 function addOverNum(number, ...args) {
     let total = 0;
 
@@ -491,10 +491,10 @@ function addOverNum(number, ...args) {
 
     return total;
 }
-// Вызов add(15, 27) возвращает 42
-// Вызов add(12, 4, 11, 48) возвращает 75
-// Вызов add(32, 6, 13, 19, 8) возвращает 78
-// Вызов add(74, 11, 62, 46, 12, 36) возвращает 241
+console.log(addOverNum(50, 12, 27));
+console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
+console.log(addOverNum(15, 32, 6, 13, 19, 8));
+console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
 
 3.33;
 
