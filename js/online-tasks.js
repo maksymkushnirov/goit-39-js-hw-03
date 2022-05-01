@@ -272,7 +272,6 @@ const products18 = [
 ];
 
 function getProductPrice18(productName) {
-    // Change code below this line
     let productPrice = null;
     for (const product of products18) {
         if (product.name === productName) {
@@ -280,7 +279,6 @@ function getProductPrice18(productName) {
         }
     }
     return productPrice;
-    // Change code above this line
 }
 console.log(getProductPrice18('Radar'));
 // 1300
@@ -459,7 +457,6 @@ function makeTask(data) {
     const completed = false;
     const category = 'General';
     const priority = 'Normal';
-    // Change code below this line
     const object = { completed, priority, category, ...data };
     return object;
 }
@@ -469,7 +466,18 @@ console.log(makeTask({ category: 'Finance', text: 'Take interest' }));
 console.log(makeTask({ priority: 'Low', text: 'Choose shampoo' }));
 console.log(makeTask({ text: 'Buy bread' }));
 
-3.31;
+// 3.31
+function add(...args) {
+    totalSum = 0;
+    for (arg of args) {
+        totalSum += arg;
+    }
+    return totalSum;
+}
+console.log(add(15, 27));
+console.log(add(12, 4, 11, 48));
+console.log(add(32, 6, 13, 19, 8));
+console.log(add(74, 11, 62, 46, 12, 36));
 
 3.32;
 function addOverNum(number, ...args) {
@@ -483,6 +491,10 @@ function addOverNum(number, ...args) {
 
     return total;
 }
+// Вызов add(15, 27) возвращает 42
+// Вызов add(12, 4, 11, 48) возвращает 75
+// Вызов add(32, 6, 13, 19, 8) возвращает 78
+// Вызов add(74, 11, 62, 46, 12, 36) возвращает 241
 
 3.33;
 
