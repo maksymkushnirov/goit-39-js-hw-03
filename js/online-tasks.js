@@ -496,7 +496,21 @@ console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
 console.log(addOverNum(15, 32, 6, 13, 19, 8));
 console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
 
-3.33;
+// 3.33
+function findMatches(numbers, ...args) {
+    const matches = []; // Don't change this line
+    for (let number of numbers) {
+        if (args.includes(number)) {
+            matches.push(number);
+        }
+    }
+    // Change code above this line
+    return matches;
+}
+console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
+console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
+console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
+console.log(findMatches([63, 11, 8, 29], 4, 7, 16));
 
 3.34;
 const bookShelf = {
