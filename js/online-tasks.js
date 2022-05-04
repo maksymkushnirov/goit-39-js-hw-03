@@ -529,7 +529,7 @@ const bookShelf34 = {
     },
 };
 
-3.35;
+// 3.35
 const bookShelf35 = {
     books: ['The last kingdom', 'Haze', 'The guardian of dreams'],
     updateBook(oldName, newName) {
