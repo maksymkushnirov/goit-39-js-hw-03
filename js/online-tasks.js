@@ -539,10 +539,17 @@ const bookShelf35 = {
     },
 };
 
-3.36;
+// 3.36
+const atTheOldToad36 = {
+    // Change code below this line
+
+    potions: [],
+
+    // Change code above this line
+};
 
 3.37;
-const atTheOldToad = {
+const atTheOldToad37 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
     getPotions(potionName) {
         return this.potions;
