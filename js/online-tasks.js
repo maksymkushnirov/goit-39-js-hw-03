@@ -548,10 +548,10 @@ const atTheOldToad36 = {
     // Change code above this line
 };
 
-3.37;
+// 3.37
 const atTheOldToad37 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
-    getPotions(potionName) {
+    getPotions() {
         return this.potions;
     },
 };
