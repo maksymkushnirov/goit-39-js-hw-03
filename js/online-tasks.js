@@ -556,8 +556,8 @@ const atTheOldToad37 = {
     },
 };
 
-3.38;
-const atTheOldToad = {
+// 3.38
+const atTheOldToad38 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
     addPotion(potionName) {
         this.potions.push(potionName);
@@ -565,7 +565,7 @@ const atTheOldToad = {
 };
 
 3.39;
-const atTheOldToad = {
+const atTheOldToad39 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
     removePotion(potionName) {
         const potionNameDelete = this.potions.indexOf(potionName);
