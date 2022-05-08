@@ -564,7 +564,7 @@ const atTheOldToad38 = {
     },
 };
 
-3.39;
+// 3.39
 const atTheOldToad39 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
     removePotion(potionName) {
