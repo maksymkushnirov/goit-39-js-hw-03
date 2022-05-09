@@ -573,8 +573,8 @@ const atTheOldToad39 = {
     },
 };
 
-3.4;
-const atTheOldToad = {
+// 3.40
+const atTheOldToad40 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
     updatePotionName(oldName, newName) {
         const indexOfElement = this.potions.indexOf(oldName);
