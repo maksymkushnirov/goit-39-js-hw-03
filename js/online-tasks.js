@@ -582,8 +582,8 @@ const atTheOldToad40 = {
     },
 };
 
-3.41;
-const atTheOldToad = {
+// 3.41
+const atTheOldToad41 = {
     potions: [
         { name: 'Speed potion', price: 460 },
         { name: 'Dragon breath', price: 780 },
