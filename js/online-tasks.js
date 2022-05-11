@@ -1,7 +1,3 @@
-// solvings
-// tests
-// tasks'
-
 // goit-39-js-hw-03
 console.log('');
 console.log('~~~ goit-39-js-hw-03 ~~~');
