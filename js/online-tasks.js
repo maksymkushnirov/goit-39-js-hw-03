@@ -4,6 +4,7 @@ console.log('~~~ goit-39-js-hw-03 ~~~');
 console.log('');
 
 // 3.1
+
 console.log('');
 console.log('~~~ Task 3.1 ~~~');
 console.log('');
@@ -302,9 +303,13 @@ function getAllPropValues(propName) {
     return propNames;
 }
 console.log(getAllPropValues('name'));
+// [ 'Radar', 'Scanner', 'Droid', 'Grip' ]
 console.log(getAllPropValues('quantity'));
+// [ 4, 3, 7, 9 ]
 console.log(getAllPropValues('price'));
+// [ 1300, 2700, 400, 1200 ]
 console.log(getAllPropValues('category'));
+// []
 
 // 3.20
 const products = [
