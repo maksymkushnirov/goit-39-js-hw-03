@@ -331,6 +331,7 @@ function calculateTotalPrice(productName) {
 console.log(calculateTotalPrice('Blaster'));
 // 0
 console.log(calculateTotalPrice('Radar'));
+// 5200
 console.log(calculateTotalPrice('Droid'));
 console.log(calculateTotalPrice('Grip'));
 console.log(calculateTotalPrice('Scanner'));
