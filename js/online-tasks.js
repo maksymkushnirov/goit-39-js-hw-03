@@ -333,6 +333,7 @@ console.log(calculateTotalPrice('Blaster'));
 console.log(calculateTotalPrice('Radar'));
 // 5200
 console.log(calculateTotalPrice('Droid'));
+// 2800
 console.log(calculateTotalPrice('Grip'));
 console.log(calculateTotalPrice('Scanner'));
 
