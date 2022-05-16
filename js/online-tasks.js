@@ -335,6 +335,7 @@ console.log(calculateTotalPrice('Radar'));
 console.log(calculateTotalPrice('Droid'));
 // 2800
 console.log(calculateTotalPrice('Grip'));
+// 10800
 console.log(calculateTotalPrice('Scanner'));
 
 // 3.21
