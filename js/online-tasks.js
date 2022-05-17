@@ -337,6 +337,7 @@ console.log(calculateTotalPrice('Droid'));
 console.log(calculateTotalPrice('Grip'));
 // 10800
 console.log(calculateTotalPrice('Scanner'));
+// 8100
 
 // 3.21
 const highTemperatures21 = {
