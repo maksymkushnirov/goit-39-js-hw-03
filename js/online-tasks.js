@@ -426,6 +426,7 @@ function calculateMeanTemperature(forecast) {
 console.log(
     calculateMeanTemperature({ today: { low: 28, high: 32 }, tomorrow: { low: 25, high: 29 } }),
 );
+// 28.5
 console.log(
     calculateMeanTemperature({ today: { low: 37, high: 40 }, tomorrow: { low: 33, high: 38 } }),
 );
