@@ -430,6 +430,7 @@ console.log(
 console.log(
     calculateMeanTemperature({ today: { low: 37, high: 40 }, tomorrow: { low: 33, high: 38 } }),
 );
+// 37
 
 // 3.27
 const scores27 = [89, 64, 42, 17, 93, 51, 26];
@@ -468,6 +469,7 @@ function makeTask(data) {
     return object;
 }
 console.log(makeTask({}));
+// { completed: false, priority: 'Normal', category: 'General' }
 console.log(makeTask({ category: 'Homemade', priority: 'Low', text: 'Take out the trash' }));
 console.log(makeTask({ category: 'Finance', text: 'Take interest' }));
 console.log(makeTask({ priority: 'Low', text: 'Choose shampoo' }));
