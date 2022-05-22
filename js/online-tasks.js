@@ -475,6 +475,7 @@ console.log(makeTask({ category: 'Homemade', priority: 'Low', text: 'Take out th
 console.log(makeTask({ category: 'Finance', text: 'Take interest' }));
 // { completed: false, priority: 'Normal', category: 'Finance', text: 'Take interest' }
 console.log(makeTask({ priority: 'Low', text: 'Choose shampoo' }));
+// { completed: false, priority: 'Low', category: 'General', text: 'Choose shampoo' }
 console.log(makeTask({ text: 'Buy bread' }));
 
 // 3.31
