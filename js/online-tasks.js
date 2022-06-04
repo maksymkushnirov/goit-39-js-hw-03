@@ -535,6 +535,7 @@ console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
 console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
 // [ 24, 41, 9 ]
 console.log(findMatches([63, 11, 8, 29], 4, 7, 16));
+// []
 
 // 3.34
 const bookShelf34 = {
