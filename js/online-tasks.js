@@ -4,6 +4,10 @@ console.log('~~~ goit-39-js-hw-03 ~~~');
 console.log('');
 
 // 3.1
+console.log('');
+console.log('~~~ Task 3.1 ~~~');
+console.log('');
+
 /* Создание объекта
 Объекты позволяют описать и сгруппировать характеристики объектов реального мира - пользователя, книги, продукта магазина, чего угодно. Объекты ещё называют словарями, то есть они содержат термины (свойства) и их определения (значения).
 const book = {
@@ -35,10 +39,6 @@ tags - метаинформация, массив ["premium", "promoted", "top"]
 В объекте есть свойство tags
 Значение свойства tags это массив ["premium", "promoted", "top"]*/
 
-console.log('');
-console.log('~~~ Task 3.1 ~~~');
-console.log('');
-
 const apartment1 = {
     imgUrl: 'https://via.placeholder.com/640x480',
     descr: 'Spacious apartment in the city center',
@@ -66,6 +66,10 @@ const apartment2 = {
 };
 
 // 3.3
+console.log('');
+console.log('~~~ Task 3.3 ~~~');
+console.log('');
+
 const apartment3 = {
     imgUrl: 'https://via.placeholder.com/640x480',
     descr: 'Spacious apartment in the city center',
