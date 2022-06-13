@@ -83,6 +83,10 @@ const aptPrice3 = apartment3.price;
 const aptTags3 = apartment3.tags;
 
 // 3.4
+console.log('');
+console.log('~~~ Task 3.4 ~~~');
+console.log('');
+
 const apartment4 = {
     imgUrl: 'https://via.placeholder.com/640x480',
     descr: 'Spacious apartment in the city center',
