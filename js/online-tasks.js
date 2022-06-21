@@ -107,6 +107,10 @@ const firstTag = apartment4.tags[0];
 const lastTag = apartment4.tags[2];
 
 // 3.5
+console.log('');
+console.log('~~~ Task 3.5 ~~~');
+console.log('');
+
 const apartment5 = {
     imgUrl: 'https://via.placeholder.com/640x480',
     descr: 'Spacious apartment in the city center',
@@ -120,6 +124,10 @@ const aptPrice = apartment5['price'];
 const aptTags = apartment5['tags'];
 
 // 3.6
+console.log('');
+console.log('~~~ Task 3.6 ~~~');
+console.log('');
+
 const apartment6 = {
     imgUrl: 'https://via.placeholder.com/640x480',
     descr: 'Spacious apartment in the city center',
