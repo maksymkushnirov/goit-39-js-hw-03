@@ -146,6 +146,10 @@ apartment6.owner.name = 'Henry Sibola';
 apartment6.tags.push('trusted');
 
 // 3.7
+console.log('');
+console.log('~~~ Task 3.7 ~~~');
+console.log('');
+
 const apartment7 = {
     imgUrl: 'https://via.placeholder.com/640x480',
     descr: 'Spacious apartment in the city center',
