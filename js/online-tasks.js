@@ -170,6 +170,10 @@ apartment7.location = {
 };
 
 // 3.8
+console.log('');
+console.log('~~~ Task 3.8 ~~~');
+console.log('');
+
 const name = 'Repair Droid';
 const price = 2500;
 const image = 'https://via.placeholder.com/640x480';
