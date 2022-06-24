@@ -187,6 +187,10 @@ const product = {
 };
 
 // 3.9
+console.log('');
+console.log('~~~ Task 3.9 ~~~');
+console.log('');
+
 const emailInputName = 'email';
 const passwordInputName = 'password';
 
