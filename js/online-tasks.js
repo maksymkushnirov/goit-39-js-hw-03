@@ -200,6 +200,10 @@ const credentials = {
 };
 
 // 3.10
+console.log('');
+console.log('~~~ Task 3.10 ~~~');
+console.log('');
+
 const apartment10 = {
     descr: 'Spacious apartment in the city center',
     rating: 4,
