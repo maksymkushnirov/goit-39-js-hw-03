@@ -216,6 +216,10 @@ for (const key10 in apartment10) {
 }
 
 // 3.11
+console.log('');
+console.log('~~~ Task 3.11 ~~~');
+console.log('');
+
 const keys11 = [];
 const values11 = [];
 const advert11 = {
