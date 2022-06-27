@@ -238,6 +238,10 @@ for (const key11 in apartment11) {
 }
 
 // 3.12
+console.log('');
+console.log('~~~ Task 3.12 ~~~');
+console.log('');
+
 function countProps12(object) {
     let propCount12 = 0;
     for (const key in object) {
