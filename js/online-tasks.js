@@ -260,6 +260,10 @@ countProps12({ mail: 'poly@mail.com', isOnline: true, score: 500 });
 // 3
 
 // 3.13
+console.log('');
+console.log('~~~ Task 3.13 ~~~');
+console.log('');
+
 const apartment13 = {
     descr: 'Spacious apartment in the city center',
     rating: 4,
