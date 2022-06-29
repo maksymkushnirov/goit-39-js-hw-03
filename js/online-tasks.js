@@ -276,6 +276,10 @@ for (const key of keys13) {
 }
 
 // 3.14
+console.log('');
+console.log('~~~ Task 3.14 ~~~');
+console.log('');
+
 function countProps14(object14) {
     let propCount14 = 0;
     const keys = Object.keys(object14);
