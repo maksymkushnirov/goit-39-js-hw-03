@@ -312,6 +312,10 @@ const keys15 = Object.keys15(apartment15);
 const values15 = Object.values15(apartment15);
 
 // 3.16
+console.log('');
+console.log('~~~ Task 3.16 ~~~');
+console.log('');
+
 function countTotalSalary16(salaries16) {
     let totalSalary16 = 0;
     const values = Object.values(salaries16);
