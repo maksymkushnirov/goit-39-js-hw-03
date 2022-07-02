@@ -333,6 +333,10 @@ countTotalSalary16({ kiwi: 200, poly: 50, ajax: 150 });
 // 400
 
 // 3.17
+console.log('');
+console.log('~~~ Task 3.17 ~~~');
+console.log('');
+
 const colors17 = [
     { hex: '#f44336', rgb: '244,67,54' },
     { hex: '#2196f3', rgb: '33,150,243' },
