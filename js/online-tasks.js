@@ -351,6 +351,10 @@ for (const { hex, rgb } of colors) {
 }
 
 // 3.18
+console.log('');
+console.log('~~~ Task 3.18 ~~~');
+console.log('');
+
 const products18 = [
     { name: 'Radar', price: 1300, quantity: 4 },
     { name: 'Scanner', price: 2700, quantity: 3 },
