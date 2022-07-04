@@ -381,6 +381,10 @@ console.log(getProductPrice18('Engine'));
 // null
 
 // 3.19
+console.log('');
+console.log('~~~ Task 3.19 ~~~');
+console.log('');
+
 const products19 = [
     { name: 'Radar', price: 1300, quantity: 4 },
     { name: 'Scanner', price: 2700, quantity: 3 },
@@ -406,6 +410,10 @@ console.log(getAllPropValues('category'));
 // []
 
 // 3.20
+console.log('');
+console.log('~~~ Task 3.20 ~~~');
+console.log('');
+
 const products = [
     { name: 'Radar', price: 1300, quantity: 4 },
     { name: 'Scanner', price: 2700, quantity: 3 },
