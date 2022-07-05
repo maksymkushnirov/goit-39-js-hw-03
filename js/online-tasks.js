@@ -442,6 +442,10 @@ console.log(calculateTotalPrice('Scanner'));
 // 8100
 
 // 3.21
+console.log('');
+console.log('~~~ Task 3.21 ~~~');
+console.log('');
+
 const highTemperatures21 = {
     yesterday21: 28,
     today21: 26,
