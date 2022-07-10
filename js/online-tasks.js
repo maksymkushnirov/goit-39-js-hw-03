@@ -473,6 +473,10 @@ const {
 const meanTemperature22 = (yesterday22 + today22 + tomorrow22) / 3;
 
 // 3.23
+console.log('');
+console.log('~~~ Task 3.23 ~~~');
+console.log('');
+
 const highTemperatures23 = {
     yesterday23: 28,
     today23: 26,
