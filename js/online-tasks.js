@@ -491,6 +491,10 @@ const {
 const meanTemperature23 = (highYesterday23 + highToday23 + highTomorrow23) / 3;
 
 // 3.24
+console.log('');
+console.log('~~~ Task 3.24 ~~~');
+console.log('');
+
 const colors = [
     { hex: '#f44336', rgb: '244,67,54' },
     { hex: '#2196f3', rgb: '33,150,243' },
