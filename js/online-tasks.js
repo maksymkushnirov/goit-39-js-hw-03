@@ -509,6 +509,10 @@ for (const { hex, rgb } of colors) {
 }
 
 // 3.25
+console.log('');
+console.log('~~~ Task 3.25 ~~~');
+console.log('');
+
 const forecast = {
     today: {
         low: 28,
