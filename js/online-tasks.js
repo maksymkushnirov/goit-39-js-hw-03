@@ -538,6 +538,10 @@ const {
 } = forecast;
 
 // 3.26
+console.log('');
+console.log('~~~ Task 3.26 ~~~');
+console.log('');
+
 function calculateMeanTemperature(forecast) {
     const {
         today: { low: todayLow, high: todayHigh },
