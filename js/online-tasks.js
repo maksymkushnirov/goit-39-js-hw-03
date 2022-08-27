@@ -559,6 +559,10 @@ console.log(
 // 37
 
 // 3.27
+console.log('');
+console.log('~~~ Task 3.27 ~~~');
+console.log('');
+
 const scores27 = [89, 64, 42, 17, 93, 51, 26];
 const bestScore27 = Math.max(...scores27);
 const worstScore27 = Math.min(...scores27);
