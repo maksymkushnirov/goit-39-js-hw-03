@@ -568,6 +568,10 @@ const bestScore27 = Math.max(...scores27);
 const worstScore27 = Math.min(...scores27);
 
 // 3.28
+console.log('');
+console.log('~~~ Task 3.28 ~~~');
+console.log('');
+
 const firstGroupScores = [64, 42, 93];
 const secondGroupScores = [89, 14, 51, 26];
 const thirdGroupScores = [29, 47, 18, 97, 81];
