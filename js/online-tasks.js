@@ -580,6 +580,10 @@ const bestScore = Math.max(...allScores);
 const worstScore = Math.min(...allScores);
 
 // 3.29
+console.log('');
+console.log('~~~ Task 3.29 ~~~');
+console.log('');
+
 const defaultSettings = {
     theme: 'light',
     public: true,
