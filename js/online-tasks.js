@@ -622,6 +622,10 @@ console.log(makeTask({ text: 'Buy bread' }));
 // { completed: false, priority: 'Normal', category: 'General', text: 'Buy bread' }
 
 // 3.31
+console.log('');
+console.log('~~~ Task 3.31 ~~~');
+console.log('');
+
 function add(...args) {
     totalSum = 0;
     for (arg of args) {
