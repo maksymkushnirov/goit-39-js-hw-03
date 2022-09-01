@@ -643,6 +643,10 @@ console.log(add(74, 11, 62, 46, 12, 36));
 // 241
 
 // 3.32
+console.log('');
+console.log('~~~ Task 3.32 ~~~');
+console.log('');
+
 function addOverNum(number, ...args) {
     let total = 0;
 
