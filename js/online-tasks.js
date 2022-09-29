@@ -692,6 +692,10 @@ console.log(findMatches([63, 11, 8, 29], 4, 7, 16));
 // []
 
 // 3.34
+console.log('');
+console.log('~~~ Task 3.34 ~~~');
+console.log('');
+
 const bookShelf34 = {
     books: ['The last kingdom', 'The guardian of dreams'],
     getBooks() {
