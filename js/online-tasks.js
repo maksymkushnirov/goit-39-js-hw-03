@@ -713,6 +713,10 @@ const bookShelf34 = {
 };
 
 // 3.35
+console.log('');
+console.log('~~~ Task 3.35 ~~~');
+console.log('');
+
 const bookShelf35 = {
     books: ['The last kingdom', 'Haze', 'The guardian of dreams'],
     updateBook(oldName, newName) {
