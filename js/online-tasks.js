@@ -727,6 +727,10 @@ const bookShelf35 = {
 };
 
 // 3.36
+console.log('');
+console.log('~~~ Task 3.36 ~~~');
+console.log('');
+
 const atTheOldToad36 = {
     // Change code below this line
 
