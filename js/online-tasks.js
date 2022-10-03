@@ -740,6 +740,10 @@ const atTheOldToad36 = {
 };
 
 // 3.37
+console.log('');
+console.log('~~~ Task 3.37 ~~~');
+console.log('');
+
 const atTheOldToad37 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
     getPotions() {
