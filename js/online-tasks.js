@@ -773,6 +773,10 @@ const atTheOldToad39 = {
 };
 
 // 3.40
+console.log('');
+console.log('~~~ Task 3.40 ~~~');
+console.log('');
+
 const atTheOldToad40 = {
     potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
     updatePotionName(oldName, newName) {
