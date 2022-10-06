@@ -786,6 +786,10 @@ const atTheOldToad40 = {
 };
 
 // 3.41
+console.log('');
+console.log('~~~ Task 3.41 ~~~');
+console.log('');
+
 const atTheOldToad41 = {
     potions: [
         { name: 'Speed potion', price: 460 },
