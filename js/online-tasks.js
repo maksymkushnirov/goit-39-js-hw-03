@@ -164,6 +164,56 @@ console.log('');
 console.log('~~~ Task 3.4 ~~~');
 console.log('');
 
+/* Доступ к вложенным свойствам
+const user = {
+  name: "Jacques Gluke",
+  tag: "jgluke",
+  location: {
+    country: "Jamaica",
+    city: "Ocho Rios",
+  },
+  hobbies: ["swiming", "music", "sci-fi"],
+};
+Для доступа к вложенным свойствам используется цепочка обращений «через точку». 
+Например, если необходимо получить значение страны пользователя, записываем user.location.country,
+где user.location это обращение (путь) к объекту в свойстве location, а user.locaton.country 
+обращение к свойству country в этом объекте. То есть, «точка» указывает следующую вложенность.
+const location = user.location;
+console.log(location); // Объект location
+const country = user.location.country;
+console.log(country); // "Jamaica"
+Если значение свойства это массив, то в нашем примере user.hobbies - обращение к этому массиву. 
+Далее, можно получить доступ к его элементам через квадратные скобки и индекс или использовать свойства и методы.
+const hobbies = user.hobbies;
+console.log(hobbies); // ["swiming", "music", "sci-fi"]
+const firstHobby = user.hobbies[0];
+console.log(firstHobby); // "swiming"
+const numberOfHobbies = user.hobbies.length;
+console.log(numberOfHobbies); // 3
+Задание
+Дополни код присвоив объявленным переменным выражения обращения к соответствующим свойствам обьекта apartment.
+ownerName - имя владельца;
+ownerPhone - телефон владельца;
+ownerEmail - почта владельца;
+numberOfTags - количество элементов массива в свойстве tags;
+firstTag - первый элемент массива в свойстве tags;
+lastTag - последний элемент массива в свойстве tags.
+Тесты
+Объявлена переменная apartment с помощью "const"
+Значение переменной apartment это объект
+Объявлена переменная ownerName с помощью "const"
+Значение переменной ownerName это строка "Henry"
+Объявлена переменная ownerPhone с помощью "const"
+Значение переменной ownerPhone это "982-126-1588"
+Объявлена переменная ownerEmail с помощью "const"
+Значение переменной ownerEmail это "henry.carter@aptmail.com"
+Объявлена переменная numberOfTags с помощью "const"
+Значение переменной numberOfTags это 3
+Объявлена переменная firstTag с помощью "const"
+Значение переменной firstTag это "premium"
+Объявлена переменная lastTag с помощью "const"
+Значение переменной lastTag это "top" */
+
 const apartment4 = {
     imgUrl: 'https://via.placeholder.com/640x480',
     descr: 'Spacious apartment in the city center',
@@ -187,6 +237,50 @@ const lastTag = apartment4.tags[2];
 console.log('');
 console.log('~~~ Task 3.5 ~~~');
 console.log('');
+
+/* Доступ к свойствам через квадратные скобки
+Второй способ получить доступ к свойству объекта это синтаксис обьект["ключ_свойства"]. 
+Похоже на обращение к элементу массива с отличием в том, что в скобках указывается не индекс 
+элемента, а имя свойства как строка.
+Синтаксис «квадратных скобок» используется значительно реже. Как правило в случаях когда имя 
+свойства заранее неизвестно или оно хранится в переменной (как значение параметра функции, например).
+На место обращения будет возвращено значение свойства с таким именем.
+Если в объекте нет свойства с таким именем, на место обращения вернётся undefined.
+const book = {
+  title: "Последнее королевство",
+  author: "Бернард Корнуэлл",
+  genres: ["историческая проза", "приключения"],
+  public: true,
+  rating: 8.38,
+};
+const bookTitle = book["title"];
+console.log(bookTitle); 
+// "Последнее королевство"
+const bookGenres = book["genres"];
+console.log(bookGenres); 
+// ["историческая проза", "приключения"]
+const propKey = "author";
+const bookAuthor = book[propKey];
+console.log(bookAuthor); 
+// "Бернард Корнуэлл"
+Задание
+Дополни код присвоив объявленным переменным выражения обращения к соответствующим свойствам 
+обьекта apartment используя синтаксис «квадратных скобок».
+aptRating - рейтинг;
+aptDescr - описание;
+aptPrice - цена;
+aptTags - теги.
+Тесты
+Объявлена переменная apartment
+Значение переменной apartment это объект
+Объявлена переменная aptRating
+Значение переменной aptRating это 4
+Объявлена переменная aptDescr
+Значение переменной aptDescr это "Spacious apartment in the city centre"
+Объявлена переменная aptPrice
+Значение переменной aptPrice это 2153
+Объявлена переменная aptTags
+Значение переменной aptTags это ["premium", "promoted", "top"] */
 
 const apartment5 = {
     imgUrl: 'https://via.placeholder.com/640x480',
