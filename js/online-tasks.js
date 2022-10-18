@@ -717,6 +717,17 @@ console.log('');
 console.log('~~~ Task 3.14 ~~~');
 console.log('');
 
+/* Задача. Подсчёт свойств 2.0
+Задание
+Выполни рефакторинг функции countProps(object) используя метод Object.keys() и, возможно, цикл for...of.
+Тесты
+Объявлена функция countProps(object)
+Вызов countProps({}) возвращает 0
+Вызов countProps({ name: "Mango", age: 2 }) возвращает 2
+Вызов countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }) возвращает 3
+Функция подсчитывает только собственные свойства объекта
+Функция использует метод Object.keys() и, возможно, цикл for...of */
+
 function countProps14(object14) {
     let propCount14 = 0;
     const keys = Object.keys(object14);
