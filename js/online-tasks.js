@@ -1552,7 +1552,6 @@ const overrideSettings = {
 const finalSettings = { ...defaultSettings, ...overrideSettings };
 
 // 3.30
-
 console.log('');
 console.log('~~~ Task 3.30 ~~~');
 console.log('');
